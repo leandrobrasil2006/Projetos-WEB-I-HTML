@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de um Usuário</h1>
+        <nav>
+            <a href="#formulario">Formulário</a>
+        </nav>
+    </header>
+    <section id="formulario">
+        <h2>Preencha os seus dados</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <label for="genero">Gênero:</label><br>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select><br><br>
+
+            <label for="interesses">Interesses:</label><br>
+            <input type="checkbox" id="futebol" name="interesses" value="futebol">
+            <label for="futebol">Futebol</label><br>
+            <input type="checkbox" id="praia" name="interesses" value="praia">
+            <label for="praia">praia</label><br>
+            <input type="checkbox" id="vôlei" name="interesses" value="vôlei">
+            <label for="vôlei">vôlei</label><br><br>
+
+            <label for="biografia">Breve biografia:</label><br>
+            <textarea id="biografia" name="biografia" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>
+
+
